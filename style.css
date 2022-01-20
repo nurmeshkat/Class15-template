@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fixed-width{
+    width: 1400px;
+    margin: auto;
+
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    text-align: center;
+    background-color: #21be9f;
+}
+.header-logo{
+    display: inline-block;
+    float: left;
+    width: 25%;
+}
+.header-logo a {
+    font-size: 30px;
+    color: #fff;
+    display: inline-block;
+    line-height: 75px;
+    margin: 0 100px 0 0;
+}
+.header-menu{
+    float: right;
+    width: 62%;
+}
+.header-menu ul {
+    display: inline-block;
+    margin-left: 290px;
+}
+.header-menu ul li{
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.header-menu ul li a {
+    font-size: 16px;
+    display: inline-block;
+    color: #fff;
+    line-height: 85px;
+    padding: 0 13px;
+}
+.banner{
+    text-align: center;
+    background: url(./header-bg01.jpg) no-repeat center right ;
+    background-size: cover;
+    padding: 155px 0;
+}
+.banner h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+}
+.banner h2 {
+    color: #fff;
+    padding: 22px 0 45px 0;
+    font-size: 23px;
+}
+.banner a {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 25px;
+    font-style: normal;
+    padding: 7px 23px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.service-section{
+    text-align: center;
+    margin-top: 100px;
+    padding:0 10px 40px 70px;
+    border-bottom: 2px solid #0dbf9b;
+    color: #3a3939;
+}
+.service-section h1 {
+    text-align: center;
+    padding: 10px 10px 25px 10px;
+    font-size: 32px;
+}
+.service-section p {
+    text-align: center;
+    padding:5px 30px;
+    font-size: 17px;
+}
+.service{
+    text-align: center;
+    margin: 105px 0px;
+}
+.service1{
+    width: 22%;
+    float: left;
+    display: inline-block;
+    margin: 0 0px 0 -10px;
+}
+.service2{
+    width: 22%;
+    float: left;
+    display: inline-block;
+    margin: 0 20px;
+}
+.service3{
+    width: 22%;
+    float: left;
+    display: inline-block;
+    margin: 0 20px;
+}
+.service4{
+    width: 22%;
+    float: left;
+    display: inline-block;
+}
+.service span{
+    font-size: 36px;
+    color: #0dbf9b;
+}
+.service h3{
+    padding: 20px 0 12px 0;
+    font-size: 22px;
+}
+.service p{
+    text-align: center;
+    font-size: 17px;
+}
+.about-section{
+padding: 50px 0;
+color: #3a3939;
+}
+.about-section h1{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.about-section .content {
+    text-align: center;
+    font-size: 17px;
+    padding: 20px 0 68px;
+}
+.about-section img{
+    float: left;
+    width: 40%;
+    margin-left: 2%;
+    display: inline-block;
+}
+.about{
+    margin: 10px ;
+    float: right;
+    width: 50%;
+    margin-right: 4%;
+    display: inline-block;
+}
+.about h2{
+max-width: 100%;
+padding: 7px;
+font-weight: normal;
+}
+.about p{
+    display: inline-block;
+    max-width: 100%;
+    font-size: 17px;
+    padding: 6px;
+}
+.contact-section{
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 83px;
+    color: #3a3939;
+}
+.contact-section h1{
+    text-align: center;
+    font-size: 30px;
+}
+.contact-section p{
+    text-align: center;
+    padding: 30px 0 55px;
+    font-size: 17px;
+}
+.contact-section .contact1{
+    width: 26%;
+    float: left;
+    margin-left: 12%;
+}
+.contact-section span{
+    color: #0dbf9b;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+}
+.contact1 p{
+    padding: 0;
+}
+.contact-section .contact2{
+    width: 26%;
+    float: left;
+}
+.contact2 p{
+    padding: 0;
+}
+.contact-section .contact3{
+    width: 26%;
+    float: left;
+    margin: 0;
+}
+.contact3 p{
+    padding: 0;
+}
+.social-icon{
+    background-color: #0dbf9b;
+    padding: 10px;
+    text-align: center;
+}
+.social-icon span{
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+}
+.footer{
+    text-align: center;
+    background-color: #222222;
+    color: #464646;
+    padding: 13px;
+    font-size: 16px;
+}
