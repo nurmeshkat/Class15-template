@@ -223,7 +223,7 @@ font-weight: normal;
     padding: 10px;
     text-align: center;
 }
-.social-icon span{
+.social-icon a{
     display: inline-block;
     color: #fff;
     padding: 10px;
